@@ -1,7 +1,6 @@
+
+
 .advertisement {
-    /* position: relative;
-    left: 305%;
-    top: -1041px; */
     height: 1000px;
     width: 200px;
     outline: solid 2px black;
@@ -13,5 +12,24 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px){
+    .advertisement{
+        display: none;
+    }
+
+    .LatestStoriesVer-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-container{
+        display: none;
+    }
 }

@@ -12,7 +12,7 @@ const LatestStoriesVer = (props) => {
     navigate('/article',{state:{data:Data,eleid:eleID}}); 
   }
   return (
-    <div>
+    <div className='LatestStoriesVer-container'>
         <h2>Latest {props.Heading} Stories</h2> 
         <div className="flex-containerLSV">
             <div className="grid-container">

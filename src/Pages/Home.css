@@ -30,3 +30,15 @@
     border-radius: 10px;
     background-size: cover;
 }
+
+@media (max-width:600px){
+    .grid-containerHome{
+        grid-template-columns: auto;
+    }
+    .grid-item3{
+        display: none;
+    }
+    .grid-item2{
+        display: none;
+    }
+}

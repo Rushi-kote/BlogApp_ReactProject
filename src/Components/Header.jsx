@@ -1,13 +1,18 @@
-import React from "react";
-import './Header.css';
+import "./Header.css";
+import Navigation from "./Navigation";
+
 
 const Header = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="rotate-text">The</div>
-        <div className="Shiren-text">SHIREN</div>
-      </header>
+    <div className="div-head-container">
+      <div className="App">
+        <header className="App-header">
+          <div className="rotate-text">The</div>
+          <div className="Shiren-text">SHIREN</div>
+        </header>
+      </div>
+      <Navigation />
     </div>
   );
 };
